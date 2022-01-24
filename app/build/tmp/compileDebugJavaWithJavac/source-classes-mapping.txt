@@ -1,0 +1,32 @@
+com/example/todolist/ui/main/CreateTasks.java
+ com.example.todolist.ui.main.CreateTasks
+com/example/todolist/ui/main/CalendarTasks.java
+ com.example.todolist.ui.main.CalendarTasks
+com/example/todolist/ui/main/AddTask.java
+ com.example.todolist.ui.main.AddTask
+ com.example.todolist.ui.main.AddTask$1
+com/example/todolist/BuildConfig.java
+ com.example.todolist.BuildConfig
+com/example/todolist/databinding/TaskTempBinding.java
+ com.example.todolist.databinding.TaskTempBinding
+com/example/todolist/databinding/ActivityMainBinding.java
+ com.example.todolist.databinding.ActivityMainBinding
+com/example/todolist/ui/main/SectionsPagerAdapter.java
+ com.example.todolist.ui.main.SectionsPagerAdapter
+com/example/todolist/ui/main/Task.java
+ com.example.todolist.ui.main.Task
+com/example/todolist/databinding/Tab1TasksListBinding.java
+ com.example.todolist.databinding.Tab1TasksListBinding
+com/example/todolist/ui/main/Adapter.java
+ com.example.todolist.ui.main.Adapter
+ com.example.todolist.ui.main.Adapter$ViewHolder
+com/example/todolist/MainActivity.java
+ com.example.todolist.MainActivity
+com/example/todolist/databinding/Tab2CreateTasksBinding.java
+ com.example.todolist.databinding.Tab2CreateTasksBinding
+com/example/todolist/ui/main/PageViewModel.java
+ com.example.todolist.ui.main.PageViewModel
+com/example/todolist/ui/main/PlaceholderFragment.java
+ com.example.todolist.ui.main.PlaceholderFragment
+com/example/todolist/databinding/Tab3CalendarTasksBinding.java
+ com.example.todolist.databinding.Tab3CalendarTasksBinding
