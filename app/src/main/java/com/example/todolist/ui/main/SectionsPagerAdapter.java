@@ -28,6 +28,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
+    //Change le fragment dans la vue en fonction de la tab cliquée
     public Fragment getItem(int position) {
         switch (position) {
             case 0:

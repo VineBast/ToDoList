@@ -1,9 +1,7 @@
 package com.example.todolist;
 
-import android.os.Build;
 import android.os.Bundle;
 
-import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -39,7 +37,6 @@ public class AddTask extends Fragment {
 
         Button button = (Button) root.findViewById(R.id.button_create);
         button.setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View v) {
                 //Récupère les textes des input
@@ -56,7 +53,6 @@ public class AddTask extends Fragment {
                 ((EditText) root.findViewById(R.id.editTextEndDate)).getText().clear();
             }
         });
-
         return root;
     }
 }

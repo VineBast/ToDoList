@@ -34,6 +34,7 @@ public class PlaceholderFragment extends Fragment {
     }
 
     @Override
+    //Inflate la vue principale et met en place le Recyclerview
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.tab1_tasks_list, container, false);
         recycler = (RecyclerView) root.findViewById(R.id.listElements);
